@@ -1,5 +1,5 @@
 const clientID = "a16a11477d0d41d29b7f60ace1be9438";
-const redirectURI = "https://keezy-spotify.netlify.app/";
+const redirectURI = "https://localhost:3000/";
 const authEndpoint = "https://accounts.spotify.com/authorize";
 const responseType = "token";
 const scopes = [
