@@ -3,6 +3,7 @@ import { SidebarOptions } from "./SidebarOptions";
 import { BiLibrary } from "react-icons/bi";
 import { AiFillHome } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
+import { FaSpotify } from "react-icons/fa";
 import { useData } from "../utilities";
 
 export const Sidebar = () => {
@@ -15,6 +16,7 @@ export const Sidebar = () => {
         src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
         alt="spotify"
       />
+      <FaSpotify size={"2.5rem"} className="sidebar_icon" />
       <SidebarOptions title="Home" Icon={AiFillHome} />
       <SidebarOptions title="Search" Icon={FiSearch} />
       <SidebarOptions title="Your Library" Icon={BiLibrary} />
